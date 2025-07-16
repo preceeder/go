@@ -17,7 +17,7 @@ type BaseContext interface {
 	Get(any) (any, bool)
 	SetRequestId(string)
 	GetRequestId() string
-	SetUserId(any)
+	SetUserId(string)
 	GetUserId() any
 }
 
