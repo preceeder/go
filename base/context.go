@@ -3,6 +3,7 @@ package base
 import (
 	"context"
 	"errors"
+	"strconv"
 	"sync"
 	"time"
 )
@@ -20,10 +21,24 @@ type BaseContext interface {
 	GetUserId() any
 }
 
+type UserId string
+
+func (u UserId) String() string {
+	return string(u)
+}
+func (u UserId) Int64() int64 {
+	userId, _ := strconv.ParseInt(string(u), 10, 64)
+	return userId
+}
+func (u UserId) Int() int {
+	userId, _ := strconv.Atoi(string(u))
+	return userId
+}
+
 type Context struct {
 	m         *sync.Map
 	RequestId string
-	UserId    string
+	UserId    UserId
 	err       *error
 }
 
@@ -85,9 +100,9 @@ func (y Context) GetRequestId() string {
 }
 
 func (y Context) SetUserId(userId string) {
-	y.UserId = userId
+	y.UserId = UserId(userId)
 }
 
-func (y Context) GetUserId() string {
+func (y Context) GetUserId() UserId {
 	return y.UserId
 }
