@@ -16,7 +16,7 @@ type BaseContext interface {
 	GetString(key any) string
 	Get(any) (any, bool)
 	SetRequestId(string)
-	GetRequestId() string
+	GetRequestId() any
 	SetUserId(string)
 	GetUserId() any
 }
@@ -37,8 +37,8 @@ func (u UserId) Int() int {
 
 type Context struct {
 	m         *sync.Map
-	RequestId string
-	UserId    UserId
+	RequestId any
+	UserId    any
 	err       *error
 }
 
@@ -95,7 +95,7 @@ func (y Context) Get(key any) (value any, exists bool) {
 func (y Context) SetRequestId(requestId string) {
 	y.RequestId = requestId
 }
-func (y Context) GetRequestId() string {
+func (y Context) GetRequestId() any {
 	return y.RequestId
 }
 
@@ -103,6 +103,6 @@ func (y Context) SetUserId(userId string) {
 	y.UserId = UserId(userId)
 }
 
-func (y Context) GetUserId() UserId {
+func (y Context) GetUserId() any {
 	return y.UserId
 }

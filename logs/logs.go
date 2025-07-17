@@ -1,7 +1,7 @@
 package logs
 
 import (
-	"github.com/preceeder/logs/lumberjack"
+	"github.com/preceeder/go/logs/lumberjack"
 	"io"
 	"log/slog"
 	"os"
