@@ -1,0 +1,15 @@
+github.com/fanjindong/go-cache v0.0.6 h1:4xl8MnfW8pFLH9cRjs0uNfVbFNqV342yl/pgX3Ql9gM=
+github.com/fanjindong/go-cache v0.0.6/go.mod h1:gxehZ3SqUVta6eFBJAcDlXDT2Q9piXkUqv7s4E0Vj6o=
+github.com/go-resty/resty/v2 v2.16.5 h1:hBKqmWrr7uRc3euHVqmh1HTHcKn99Smr7o5spptdhTM=
+github.com/go-resty/resty/v2 v2.16.5/go.mod h1:hkJtXbA2iKHzJheXYvQ8snQES5ZLGKMwQ07xAwp/fiA=
+github.com/preceeder/go/base v1.0.4 h1:WTrlQNl6jkl97A68GAD99pUmcCP3CiLCzc2wmDgEfT0=
+github.com/preceeder/go/base v1.0.4/go.mod h1:eHmCioRYVqwt3wk4aOM04DuBoV1W4+FN9NaTrVmgtQg=
+github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common v1.0.1200/go.mod h1:r5r4xbfxSaeR04b166HGsBa/R4U3SueirEUpXGuw+Q0=
+github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common v1.0.1204 h1:ir0S1Sdc1gziQ7JHhzrScxhOMnL9pJoSTtiqqMMpKy4=
+github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common v1.0.1204/go.mod h1:r5r4xbfxSaeR04b166HGsBa/R4U3SueirEUpXGuw+Q0=
+github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/faceid v1.0.1200 h1:c09p+MfLlY3gSUhVmmFLwN/YBeKeg5nvU059UFBpDK0=
+github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/faceid v1.0.1200/go.mod h1:TajWMD5vnkFP2A7iRG7ncipPBjMsaFa8cnaD0aW8SvA=
+golang.org/x/net v0.33.0 h1:74SYHlV8BIgHIFC/LrYkOGIwL19eTYXQ5wc6TBuO36I=
+golang.org/x/net v0.33.0/go.mod h1:HXLR5J+9DxmrqMwG9qjGCxZ+zKXxBru04zlTvWlWuN4=
+golang.org/x/time v0.6.0 h1:eTDhh4ZXt5Qf0augr54TN6suAUudPcawVZeIAPU7D4U=
+golang.org/x/time v0.6.0/go.mod h1:3BpzKBy/shNhVucY/MWOyx10tF3SFh9QdLuxbVysPQM=
