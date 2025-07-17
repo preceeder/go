@@ -1,4 +1,4 @@
-module github.com/preceeder/go/rdb
+module github.com/preceeder/go/db/rdb
 
 go 1.24.2
 
