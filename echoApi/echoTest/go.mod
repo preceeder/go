@@ -5,11 +5,10 @@ go 1.24.2
 require (
 	github.com/labstack/echo/v4 v4.13.3
 	github.com/preceeder/go/base v1.0.4
-	github.com/preceeder/go/echoApi v1.0.0
-	github.com/preceeder/go/logs v1.0.0
+	github.com/preceeder/go/logs v1.0.1
 )
 
-replace github.com/preceeder/go/echoApi v1.0.0 => ../
+require github.com/preceeder/go/echoApi v1.0.1
 
 require (
 	github.com/labstack/gommon v0.4.2 // indirect
