@@ -1,4 +1,4 @@
-module github.com/preceeder/base-aliyun
+module github.com/preceeder/go/aliyun
 
 go 1.24.2
 

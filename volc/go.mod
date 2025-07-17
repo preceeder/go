@@ -1,4 +1,4 @@
-module github.com/preceeder/volc
+module github.com/preceeder/go/volc
 
 go 1.24.2
 

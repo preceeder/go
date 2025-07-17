@@ -1,4 +1,4 @@
-module github.com/preceeder/grpcm
+module github.com/preceeder/go/grpcm
 
 go 1.24.2
 

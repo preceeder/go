@@ -1,4 +1,4 @@
-module rongyun
+module github.com/preceeder/go/rongyun
 
 go 1.24.2
 

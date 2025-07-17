@@ -1,4 +1,4 @@
-module shumei
+module github.com/preceeder/go/shumei
 
 go 1.24.2
 

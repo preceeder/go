@@ -1,4 +1,4 @@
-module tencent
+module github.com/preceeder/go/tencent
 
 go 1.24.2
 

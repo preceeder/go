@@ -1,4 +1,4 @@
-module config
+module github.com/preceeder/go/config
 
 go 1.24.2
 

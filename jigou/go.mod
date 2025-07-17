@@ -1,4 +1,4 @@
-module github.com/preceeder/jigou
+module github.com/preceeder/go/jigou
 
 go 1.24.2
 

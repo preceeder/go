@@ -1,4 +1,4 @@
-module feishu
+module github.com/preceeder/go/feishu
 
 go 1.24.2
 
