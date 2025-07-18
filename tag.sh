@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 统一版本号
-VERSION="1.0.6"
+VERSION="1.0.8"
 
 # 要打 tag 的 commit（可以是分支名、HEAD、hash）
 TARGET_COMMIT="master"

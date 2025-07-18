@@ -39,7 +39,7 @@ type Context struct {
 	m         *sync.Map
 	RequestId any
 	UserId    any
-	err       *error
+	err       error
 }
 
 func (y Context) Deadline() (deadline time.Time, ok bool) {
@@ -53,7 +53,7 @@ func (y Context) Done() <-chan struct{} {
 }
 
 func (y Context) Err() error {
-	return *y.err
+	return y.err
 }
 
 func (y Context) Value(key any) any {
@@ -63,14 +63,14 @@ func (y Context) Value(key any) any {
 
 func (y Context) SetError(err error) {
 	if y.err == nil {
-		y.err = &err
+		y.err = err
 	} else {
-		ter := errors.Join(*y.err, err)
-		y.err = &ter
+		ter := errors.Join(y.err, err)
+		y.err = ter
 	}
 }
 func (y Context) GetError() error {
-	return *y.err
+	return y.err
 }
 func (y Context) Set(key string, v any) {
 	if y.m == nil {
